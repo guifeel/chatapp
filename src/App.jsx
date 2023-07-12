@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import Header from './components/header';
 import { SearchPanel } from './components/SearchPanel';
+import { ChatList } from './components/ChatList';
 
 function App() {
   return (
     <>
       <Header />
       <SearchPanel />
+      <ChatList />
     </>
   );
 }
