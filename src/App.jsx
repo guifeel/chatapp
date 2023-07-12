@@ -1,17 +1,10 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
-import Header from './components/header';
-import { SearchPanel } from './components/SearchPanel';
-import { ChatList } from './components/ChatList';
+import LeftChannel from './components/LeftChannel';
 
 function App() {
   return (
     <>
-      <Header />
-      <SearchPanel />
-      <ChatList />
+      <LeftChannel />
     </>
   );
 }
