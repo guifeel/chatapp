@@ -1,15 +1,17 @@
 import Header from './header';
 import { SearchPanel } from './SearchPanel';
 import { ChatList } from './ChatList';
-import { Box } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 
 const LeftPanel = () => {
   return (
-    <Box w='30%'>
-      <Header />
-      <SearchPanel />
-      <ChatList />
-    </Box>
+    <Flex flexDirection='column' w='30%'>
+      <Box>
+        <Header />
+        <SearchPanel />
+      </Box>
+      <ChatList flex='1' overflow='auto' />
+    </Flex>
   );
 };
 

@@ -5,7 +5,7 @@ import { RightPanel } from './components/RightPanel';
 
 function App() {
   return (
-    <Flex>
+    <Flex h='100vh'>
       <LeftPanel />
       <RightPanel />
     </Flex>
